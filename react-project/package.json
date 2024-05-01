@@ -1,5 +1,14 @@
 {
     "name": "kaupungin-perhoset",
     "description": "Pääkaupunkiseudun uusimmat perhoshavainnot",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "devDependencies": {
+        "@types/react": "^18.3.1",
+        "@types/react-dom": "^18.3.0",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    }
 }
