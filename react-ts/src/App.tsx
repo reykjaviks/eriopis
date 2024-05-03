@@ -8,7 +8,7 @@ function App() {
   const [havainnot, setHavainnot] = useState([]);
 
   // todo: käytä apia, ehkä
-  // todo: mieti härvelin vakautta
+  // todo: mieti härvelin vakautta / tee custom hook
   useEffect(() => {
       fetch(url)
           .then((response) => response.json())
@@ -20,7 +20,7 @@ function App() {
           .catch((err) => {
               console.log(err.message);
           });
-  }, [url]); // todo: mieti
+  }, [url]);
   
   return (
     <>
