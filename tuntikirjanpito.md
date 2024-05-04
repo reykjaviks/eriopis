@@ -6,3 +6,4 @@
 | 1.5. | 2 | konfigurointi|
 | 2.5. | 2 | konfigurointi|
 | 3.5. | 3 | API-kutsun toteutusta |
+| 4.5. | 2 | Tiedon muokkaamista ja esittämistä |
