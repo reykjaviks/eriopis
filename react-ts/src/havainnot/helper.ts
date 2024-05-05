@@ -1,5 +1,5 @@
-import { OriginalHavaintoData } from '../types/OriginalHavaintoData';
-import { TransformedHavaintoData } from '../types/TransformedHavaintoData';
+import { OriginalHavaintoData } from '../types/OriginalHavainto';
+import { TransformedHavaintoData } from '../types/TransformedHavainto';
 
 export const convertData = (data: OriginalHavaintoData[]): TransformedHavaintoData[] => {
     return data.map(entry => ({
