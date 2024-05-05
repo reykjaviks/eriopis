@@ -1,4 +1,4 @@
-import { TransformedHavaintoData } from "../types/OriginalHavaintoData";
+import { TransformedHavaintoData } from "../types/TransformedHavaintoData";
 
 type Props = {
     havainnot: TransformedHavaintoData[];
