@@ -1,4 +1,4 @@
-import { OriginalHavaintoData } from './interfaces';
+import { OriginalHavaintoData } from '../types/OriginalHavaintoData';
 
 // todo: keksi kuvaavampi nimi
 export const data: OriginalHavaintoData[] = [
