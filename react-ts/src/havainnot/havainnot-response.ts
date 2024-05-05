@@ -1,5 +1,6 @@
 import { OriginalHavaintoData } from './interfaces';
 
+// todo: keksi kuvaavampi nimi
 export const data: OriginalHavaintoData[] = [
     {
         "unit": {

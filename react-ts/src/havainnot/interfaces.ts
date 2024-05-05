@@ -1,4 +1,4 @@
-// todo: tarkista mitkä on propertyt on pakollisia ja mitkä ei
+// todo: tarkista mitkä propertyt on pakollisia ja mitkä ei
 export interface OriginalHavaintoData {
     unit: {
         abundanceString?: string,
