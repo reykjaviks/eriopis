@@ -8,3 +8,5 @@
 | 3.5. | 3 | API-kutsun toteutusta |
 | 4.5. | 2 | Tiedon muokkaamista ja esittämistä |
 | 5.5. | 3 | Taulukointia |
+| 6.5. | 1 | Taulukointia |
+
