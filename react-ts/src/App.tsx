@@ -21,13 +21,15 @@ function App() {
 
     fetchHavainnot();
   }, [API_URL]);
-  
+
   const transformedData = convertData(havainnot)
-  
+
   return (
     <>
-      <h1>Kaupungin perhoset</h1>
-      <HavainnotPaneeli havainnot={transformedData}/>
+      <h1 className="text-center text-3xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-amber-600 to-emerald-500 " >
+        Kaupungin perhoset
+      </h1>
+      <HavainnotPaneeli havainnot={transformedData} />
     </>
   )
 }
