@@ -6,6 +6,7 @@ type Props = {
 
 // todo: mieti laitatko destrukturoidusti { havainnot } propsin sijasta
 // todo: piilota rivi jos tietoa ei ole ynnä muuta ehdottelua
+// todo: korjaa flexbox ja suunnittele hienompi ui
 export function HavainnotPaneeli(props: Props) {
     return (
         <div className="inline-flex flex-row">
