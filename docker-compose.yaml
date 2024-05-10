@@ -1,0 +1,36 @@
+services:
+  postgresql: # Use service name (postgresql) as the host name in pgadmin
+    image: docker.io/bitnami/postgresql:16
+    container_name: postgresql # What the container will be named hereafter
+    volumes:
+      - postgresql_data:/var/lib/data
+    environment:
+      - POSTGRESQL_DATABASE=airflow
+      - POSTGRESQL_USERNAME=havununna
+      - POSTGRESQL_PASSWORD=havununna
+    ports:
+      - 5432:5432
+    # todo: create another database
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: havununna@havununna.com
+      PGADMIN_DEFAULT_PASSWORD: havununna
+    ports:
+      - 5050:80
+  airflow:
+    image: docker.io/bitnami/airflow:2
+    container_name: airflow
+    environment:
+      - AIRFLOW_DATABASE_NAME=kaupunginperhoset
+      - AIRFLOW_DATABASE_USERNAME=havununna
+      - AIRFLOW_DATABASE_PASSWORD=havununna
+      - AIRFLOW_USERNAME=havununna
+      - AIRFLOW_PASSWORD=havununna
+    ports:
+      - '8080:8080'
+volumes:
+  postgresql_data:
+    driver: local
