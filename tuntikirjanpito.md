@@ -10,5 +10,9 @@
 | 5.5. | 3 | Taulukko |
 | 6.5. | 1 | Taulukko |
 | 7.5. | 2 | Tyylittely |
-| 9.5. | 3 | Airflown asennus |
-| 10.5. | 2 | Konttien nypläys |
+| 9.5. | 3 | Airflown kontitus |
+| 10.5. | 2 | Airflown kontitus |
+| 12.5. | 4 | Airflown kontitus + Airflow opiskelu |
+| 13.5. | 1.5 | Airflown kontitus |
+| 14.5. | 1.5 | Airflown kontitus |
+| 19.5. | 1.5 | DAGin tunkkaus | 
