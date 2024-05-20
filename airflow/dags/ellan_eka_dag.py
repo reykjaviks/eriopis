@@ -15,13 +15,13 @@ dag = DAG(
 
 lataa_luontoreitit = BashOperator(
     task_id="lataa_luontoreitit",
-    bash_command="curl -o /temp/luontoreitit.json -L 'https://citynature.eu/api/wp/v2/places?cityid=5'",
+    bash_command="curl -o /tmp/luontoreitit.json -L 'https://citynature.eu/api/wp/v2/places?cityid=5'",
     dag=dag,
 )
 
 tulosta_sisalto = BashOperator(
     task_id="notify",
-    bash_command='echo "Temp-kansion sisältö: $(ls /tmp/)"',
+    bash_command='echo "Luontoreitit.json: $(cat /tmp/luontoreitit.json)"',
     dag=dag,
 )
 
