@@ -15,4 +15,5 @@
 | 12.5. | 4 | Airflown kontitus + Airflow opiskelu |
 | 13.5. | 1.5 | Airflown kontitus |
 | 14.5. | 1.5 | Airflown kontitus |
-| 19.5. | 1.5 | DAGin tunkkaus | 
+| 19.5. | 1.5 | DAGin tunkkaus |
+| 20.5. | 1.5 | DAGin tunkkaus | 
