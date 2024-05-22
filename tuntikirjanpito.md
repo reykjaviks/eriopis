@@ -16,4 +16,5 @@
 | 13.5. | 1.5 | Airflown kontitus |
 | 14.5. | 1.5 | Airflown kontitus |
 | 19.5. | 1.5 | DAGin tunkkaus |
-| 20.5. | 1.5 | DAGin tunkkaus | 
+| 20.5. | 1.5 | DAGin tunkkaus |
+| 22.5. | 1.5 | DAGin tunkkaus | 
