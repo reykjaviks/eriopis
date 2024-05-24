@@ -1,8 +1,8 @@
 | pvm | aika | kuvaus |
 |---|---|---|
-| 28.5. | 1 | Esisuunnittelu | 
-| 29.5. | 2 | Aiheen valinta |
-| 30.5. | 2 | Suunnittelu |
+| 28.4. | 1 | Esisuunnittelu | 
+| 29.4. | 2 | Aiheen valinta |
+| 30.4. | 2 | Suunnittelu |
 | 1.5. | 2 | Reactin konfigurointi|
 | 2.5. | 2 | Reactin konfigurointi|
 | 3.5. | 3 | API-kutsu |
