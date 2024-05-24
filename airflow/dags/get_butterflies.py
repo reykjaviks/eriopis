@@ -19,6 +19,7 @@ get_butterflies_from_lajifi = HttpOperator(
     endpoint="warehouse/query/unit/list",
     data={
         "finnishMunicipalityId": "ML.660,ML.648,ML.365",
+        "informalTaxonGroupId": "MVL.31",
         "time": "-3,0",
         "access_token": Variable.get("laji_fi_access_token") # Luotu Airflown Admin-paneelissa uusi muuttuja
     },
