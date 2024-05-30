@@ -18,4 +18,5 @@
 | 19.5. | 1.5 | DAGin tunkkaus |
 | 20.5. | 1.5 | DAGin tunkkaus |
 | 22.5. | 1.5 | DAGin tunkkaus |
-| 24.5. | 1 | DAGin tunkkaus | 
+| 24.5. | 1 | DAGin tunkkaus |
+| 30.5. | 2 | Suunnittelu, tietokannan alustus, ympäristön korjaus | 
