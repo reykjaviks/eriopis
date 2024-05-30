@@ -58,6 +58,6 @@ create table testi.havainto (
     kunta text null,
     kaupunginosa text null,
     loyto_pvm timestamp with time zone not null,
-	created_at timestamp with time zone not null default now(), -- onko tälle suomenkielistä nimeä
+    created_at timestamp with time zone not null default now(), -- onko tälle suomenkielistä nimeä
     constraint havainto_pk primary key (id)
 );
