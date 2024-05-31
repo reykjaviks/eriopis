@@ -88,6 +88,7 @@ x-airflow-common:
 services:
   postgres:
     image: postgres:13
+    container_name: postgres-13 # What the container will be named hereafter
     environment:
       POSTGRES_USER: airflow
       POSTGRES_PASSWORD: airflow
@@ -100,6 +101,8 @@ services:
       retries: 5
       start_period: 5s
     restart: always
+    ports:
+      - 5344:5432 # Laita 5344 portiksi DBeaverissä
 
   redis:
     # Redis is limited to 7.2-bookworm due to licencing change
